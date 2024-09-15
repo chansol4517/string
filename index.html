@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>자스 필수패턴 2- 문자열, 숫자</title>
+  </head>
+
+  <body>
+    <script>
+      let txt = "2"; //문자열(따옴표로 감싸서 문자로 인식)
+      let num = 2; //숫자
+      let result = txt + num; //문자와 숫자는 더해질수 없으니 num의 숫자값이 문자로 변환됨
+      console.log("result"); //변수에 따옴표를 묶으면 문자로 변경되며 변수의 값을 읽을 수 없게됨
+
+      //검은색은 문자열로인식됨 파란색은 숫자로 인식되어 출력
+      //숫자를 강제로 문자 2로 변경시켜 이십이가 아닌 이이로 출력됨
+      //따옴표로 묶는거 주의하기
+    </script>
+  </body>
+</html>
